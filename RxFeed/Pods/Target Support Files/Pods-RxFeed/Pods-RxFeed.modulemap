@@ -1,0 +1,6 @@
+framework module Pods_RxFeed {
+  umbrella header "Pods-RxFeed-umbrella.h"
+
+  export *
+  module * { export * }
+}
