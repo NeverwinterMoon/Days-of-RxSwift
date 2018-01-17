@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1191A916200FA7A90034D740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A915200FA7A90034D740 /* AppDelegate.swift */; };
+		1191A918200FA7A90034D740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A917200FA7A90034D740 /* ViewController.swift */; };
+		1191A91B200FA7A90034D740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1191A919200FA7A90034D740 /* Main.storyboard */; };
+		1191A91D200FA7A90034D740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1191A91C200FA7A90034D740 /* Assets.xcassets */; };
+		1191A920200FA7A90034D740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1191A91E200FA7A90034D740 /* LaunchScreen.storyboard */; };
+		1191A92B200FA7A90034D740 /* RxPetrolPumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A92A200FA7A90034D740 /* RxPetrolPumpTests.swift */; };
+		1191A936200FA7A90034D740 /* RxPetrolPumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A935200FA7A90034D740 /* RxPetrolPumpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1191A927200FA7A90034D740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1191A90A200FA7A90034D740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1191A911200FA7A90034D740;
+			remoteInfo = RxPetrolPump;
+		};
+		1191A932200FA7A90034D740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1191A90A200FA7A90034D740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1191A911200FA7A90034D740;
+			remoteInfo = RxPetrolPump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1191A912200FA7A90034D740 /* RxPetrolPump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxPetrolPump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1191A915200FA7A90034D740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1191A917200FA7A90034D740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1191A91A200FA7A90034D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1191A91C200FA7A90034D740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1191A91F200FA7A90034D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1191A921200FA7A90034D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1191A926200FA7A90034D740 /* RxPetrolPumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxPetrolPumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1191A92A200FA7A90034D740 /* RxPetrolPumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPetrolPumpTests.swift; sourceTree = "<group>"; };
+		1191A92C200FA7A90034D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1191A931200FA7A90034D740 /* RxPetrolPumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxPetrolPumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1191A935200FA7A90034D740 /* RxPetrolPumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPetrolPumpUITests.swift; sourceTree = "<group>"; };
+		1191A937200FA7A90034D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1191A90F200FA7A90034D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A923200FA7A90034D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A92E200FA7A90034D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1191A909200FA7A90034D740 = {
+			isa = PBXGroup;
+			children = (
+				1191A914200FA7A90034D740 /* RxPetrolPump */,
+				1191A929200FA7A90034D740 /* RxPetrolPumpTests */,
+				1191A934200FA7A90034D740 /* RxPetrolPumpUITests */,
+				1191A913200FA7A90034D740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1191A913200FA7A90034D740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1191A912200FA7A90034D740 /* RxPetrolPump.app */,
+				1191A926200FA7A90034D740 /* RxPetrolPumpTests.xctest */,
+				1191A931200FA7A90034D740 /* RxPetrolPumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1191A914200FA7A90034D740 /* RxPetrolPump */ = {
+			isa = PBXGroup;
+			children = (
+				1191A915200FA7A90034D740 /* AppDelegate.swift */,
+				1191A917200FA7A90034D740 /* ViewController.swift */,
+				1191A919200FA7A90034D740 /* Main.storyboard */,
+				1191A91C200FA7A90034D740 /* Assets.xcassets */,
+				1191A91E200FA7A90034D740 /* LaunchScreen.storyboard */,
+				1191A921200FA7A90034D740 /* Info.plist */,
+			);
+			path = RxPetrolPump;
+			sourceTree = "<group>";
+		};
+		1191A929200FA7A90034D740 /* RxPetrolPumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				1191A92A200FA7A90034D740 /* RxPetrolPumpTests.swift */,
+				1191A92C200FA7A90034D740 /* Info.plist */,
+			);
+			path = RxPetrolPumpTests;
+			sourceTree = "<group>";
+		};
+		1191A934200FA7A90034D740 /* RxPetrolPumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1191A935200FA7A90034D740 /* RxPetrolPumpUITests.swift */,
+				1191A937200FA7A90034D740 /* Info.plist */,
+			);
+			path = RxPetrolPumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1191A911200FA7A90034D740 /* RxPetrolPump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1191A93A200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPump" */;
+			buildPhases = (
+				1191A90E200FA7A90034D740 /* Sources */,
+				1191A90F200FA7A90034D740 /* Frameworks */,
+				1191A910200FA7A90034D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxPetrolPump;
+			productName = RxPetrolPump;
+			productReference = 1191A912200FA7A90034D740 /* RxPetrolPump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1191A925200FA7A90034D740 /* RxPetrolPumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1191A93D200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpTests" */;
+			buildPhases = (
+				1191A922200FA7A90034D740 /* Sources */,
+				1191A923200FA7A90034D740 /* Frameworks */,
+				1191A924200FA7A90034D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1191A928200FA7A90034D740 /* PBXTargetDependency */,
+			);
+			name = RxPetrolPumpTests;
+			productName = RxPetrolPumpTests;
+			productReference = 1191A926200FA7A90034D740 /* RxPetrolPumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1191A930200FA7A90034D740 /* RxPetrolPumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1191A940200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpUITests" */;
+			buildPhases = (
+				1191A92D200FA7A90034D740 /* Sources */,
+				1191A92E200FA7A90034D740 /* Frameworks */,
+				1191A92F200FA7A90034D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1191A933200FA7A90034D740 /* PBXTargetDependency */,
+			);
+			name = RxPetrolPumpUITests;
+			productName = RxPetrolPumpUITests;
+			productReference = 1191A931200FA7A90034D740 /* RxPetrolPumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1191A90A200FA7A90034D740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = sy;
+				TargetAttributes = {
+					1191A911200FA7A90034D740 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1191A925200FA7A90034D740 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1191A911200FA7A90034D740;
+					};
+					1191A930200FA7A90034D740 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1191A911200FA7A90034D740;
+					};
+				};
+			};
+			buildConfigurationList = 1191A90D200FA7A90034D740 /* Build configuration list for PBXProject "RxPetrolPump" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1191A909200FA7A90034D740;
+			productRefGroup = 1191A913200FA7A90034D740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1191A911200FA7A90034D740 /* RxPetrolPump */,
+				1191A925200FA7A90034D740 /* RxPetrolPumpTests */,
+				1191A930200FA7A90034D740 /* RxPetrolPumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1191A910200FA7A90034D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191A920200FA7A90034D740 /* LaunchScreen.storyboard in Resources */,
+				1191A91D200FA7A90034D740 /* Assets.xcassets in Resources */,
+				1191A91B200FA7A90034D740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A924200FA7A90034D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A92F200FA7A90034D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1191A90E200FA7A90034D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191A918200FA7A90034D740 /* ViewController.swift in Sources */,
+				1191A916200FA7A90034D740 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A922200FA7A90034D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191A92B200FA7A90034D740 /* RxPetrolPumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1191A92D200FA7A90034D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191A936200FA7A90034D740 /* RxPetrolPumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1191A928200FA7A90034D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1191A911200FA7A90034D740 /* RxPetrolPump */;
+			targetProxy = 1191A927200FA7A90034D740 /* PBXContainerItemProxy */;
+		};
+		1191A933200FA7A90034D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1191A911200FA7A90034D740 /* RxPetrolPump */;
+			targetProxy = 1191A932200FA7A90034D740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1191A919200FA7A90034D740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1191A91A200FA7A90034D740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1191A91E200FA7A90034D740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1191A91F200FA7A90034D740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1191A938200FA7A90034D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1191A939200FA7A90034D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1191A93B200FA7A90034D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1191A93C200FA7A90034D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1191A93E200FA7A90034D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxPetrolPump.app/RxPetrolPump";
+			};
+			name = Debug;
+		};
+		1191A93F200FA7A90034D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxPetrolPump.app/RxPetrolPump";
+			};
+			name = Release;
+		};
+		1191A941200FA7A90034D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxPetrolPump;
+			};
+			name = Debug;
+		};
+		1191A942200FA7A90034D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGNEC7VY65;
+				INFOPLIST_FILE = RxPetrolPumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.x.sl.RxPetrolPumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxPetrolPump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1191A90D200FA7A90034D740 /* Build configuration list for PBXProject "RxPetrolPump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1191A938200FA7A90034D740 /* Debug */,
+				1191A939200FA7A90034D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1191A93A200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1191A93B200FA7A90034D740 /* Debug */,
+				1191A93C200FA7A90034D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1191A93D200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1191A93E200FA7A90034D740 /* Debug */,
+				1191A93F200FA7A90034D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1191A940200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1191A941200FA7A90034D740 /* Debug */,
+				1191A942200FA7A90034D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1191A90A200FA7A90034D740 /* Project object */;
+}
