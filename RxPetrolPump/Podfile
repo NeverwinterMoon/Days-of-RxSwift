@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RxPetrolPump' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'RxSwift', '~> 4.1.1'
+  pod 'RxCocoa', '~> 4.1.1'
+  # Pods for RxPetrolPump
+
+  target 'RxPetrolPumpTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RxPetrolPumpUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

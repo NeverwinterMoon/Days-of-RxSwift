@@ -14,6 +14,18 @@
 		1191A920200FA7A90034D740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1191A91E200FA7A90034D740 /* LaunchScreen.storyboard */; };
 		1191A92B200FA7A90034D740 /* RxPetrolPumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A92A200FA7A90034D740 /* RxPetrolPumpTests.swift */; };
 		1191A936200FA7A90034D740 /* RxPetrolPumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A935200FA7A90034D740 /* RxPetrolPumpUITests.swift */; };
+		11A1C20F20139CD300F22EB3 /* LifeCyclePump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1C20E20139CD300F22EB3 /* LifeCyclePump.swift */; };
+		11A44F362010E93A00D7F734 /* Fuel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A44F342010E93A00D7F734 /* Fuel.swift */; };
+		11A44F372010E93A00D7F734 /* LiftCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A44F352010E93A00D7F734 /* LiftCycle.swift */; };
+		11A44F392010EAC000D7F734 /* UpDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A44F382010EAC000D7F734 /* UpDown.swift */; };
+		11A44F3B2010F1BA00D7F734 /* Rx+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A44F3A2010F1BA00D7F734 /* Rx+.swift */; };
+		11CCD2CF201231FB003E411F /* Pump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCD2CE201231FB003E411F /* Pump.swift */; };
+		11CCD2D120123211003E411F /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCD2D020123211003E411F /* Inputs.swift */; };
+		11CCD2D320123219003E411F /* Outputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCD2D220123219003E411F /* Outputs.swift */; };
+		11CCD2D5201234A6003E411F /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCD2D4201234A6003E411F /* Delivery.swift */; };
+		58EA23B9DD2F79E4D7C7B25D /* Pods_RxPetrolPumpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276F074CF25DC87593F4ED03 /* Pods_RxPetrolPumpTests.framework */; };
+		7CCC480908B97410A298C917 /* Pods_RxPetrolPump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F73C6264AC94512B5DF99A /* Pods_RxPetrolPump.framework */; };
+		E393A91A59FB73C15593A066 /* Pods_RxPetrolPumpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB56EB8175FD0B2F6BE8B86 /* Pods_RxPetrolPumpUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,24 @@
 		1191A931200FA7A90034D740 /* RxPetrolPumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxPetrolPumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1191A935200FA7A90034D740 /* RxPetrolPumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPetrolPumpUITests.swift; sourceTree = "<group>"; };
 		1191A937200FA7A90034D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A1C20E20139CD300F22EB3 /* LifeCyclePump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCyclePump.swift; sourceTree = "<group>"; };
+		11A44F342010E93A00D7F734 /* Fuel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fuel.swift; sourceTree = "<group>"; };
+		11A44F352010E93A00D7F734 /* LiftCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftCycle.swift; sourceTree = "<group>"; };
+		11A44F382010EAC000D7F734 /* UpDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDown.swift; sourceTree = "<group>"; };
+		11A44F3A2010F1BA00D7F734 /* Rx+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+.swift"; sourceTree = "<group>"; };
+		11CCD2CE201231FB003E411F /* Pump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pump.swift; sourceTree = "<group>"; };
+		11CCD2D020123211003E411F /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		11CCD2D220123219003E411F /* Outputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outputs.swift; sourceTree = "<group>"; };
+		11CCD2D4201234A6003E411F /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		276F074CF25DC87593F4ED03 /* Pods_RxPetrolPumpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPetrolPumpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB56EB8175FD0B2F6BE8B86 /* Pods_RxPetrolPumpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPetrolPumpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F427CCCA80319B69119D6EE /* Pods-RxPetrolPump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPump.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPump/Pods-RxPetrolPump.debug.xcconfig"; sourceTree = "<group>"; };
+		54AD7F38933559C0607EC4A1 /* Pods-RxPetrolPumpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPumpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPumpUITests/Pods-RxPetrolPumpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2E4B38CAE5F67F272B9DA6 /* Pods-RxPetrolPumpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPumpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPumpTests/Pods-RxPetrolPumpTests.release.xcconfig"; sourceTree = "<group>"; };
+		82F73C6264AC94512B5DF99A /* Pods_RxPetrolPump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPetrolPump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8541518D75DB5FE9EF251BA1 /* Pods-RxPetrolPumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPumpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPumpUITests/Pods-RxPetrolPumpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		875F858047977461A0C084B4 /* Pods-RxPetrolPump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPump.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPump/Pods-RxPetrolPump.release.xcconfig"; sourceTree = "<group>"; };
+		E08F00C54D796896645EB1FA /* Pods-RxPetrolPumpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPetrolPumpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPetrolPumpTests/Pods-RxPetrolPumpTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCC480908B97410A298C917 /* Pods_RxPetrolPump.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EA23B9DD2F79E4D7C7B25D /* Pods_RxPetrolPumpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E393A91A59FB73C15593A066 /* Pods_RxPetrolPumpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				1191A929200FA7A90034D740 /* RxPetrolPumpTests */,
 				1191A934200FA7A90034D740 /* RxPetrolPumpUITests */,
 				1191A913200FA7A90034D740 /* Products */,
+				862C2835121816157AD5D618 /* Pods */,
+				62810D51EB5494CA7904465B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +132,7 @@
 		1191A914200FA7A90034D740 /* RxPetrolPump */ = {
 			isa = PBXGroup;
 			children = (
+				11A44F332010E93A00D7F734 /* RxApp */,
 				1191A915200FA7A90034D740 /* AppDelegate.swift */,
 				1191A917200FA7A90034D740 /* ViewController.swift */,
 				1191A919200FA7A90034D740 /* Main.storyboard */,
@@ -125,6 +161,45 @@
 			path = RxPetrolPumpUITests;
 			sourceTree = "<group>";
 		};
+		11A44F332010E93A00D7F734 /* RxApp */ = {
+			isa = PBXGroup;
+			children = (
+				11A44F342010E93A00D7F734 /* Fuel.swift */,
+				11A44F352010E93A00D7F734 /* LiftCycle.swift */,
+				11A44F382010EAC000D7F734 /* UpDown.swift */,
+				11A44F3A2010F1BA00D7F734 /* Rx+.swift */,
+				11CCD2CE201231FB003E411F /* Pump.swift */,
+				11CCD2D020123211003E411F /* Inputs.swift */,
+				11CCD2D220123219003E411F /* Outputs.swift */,
+				11CCD2D4201234A6003E411F /* Delivery.swift */,
+				11A1C20E20139CD300F22EB3 /* LifeCyclePump.swift */,
+			);
+			path = RxApp;
+			sourceTree = "<group>";
+		};
+		62810D51EB5494CA7904465B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F73C6264AC94512B5DF99A /* Pods_RxPetrolPump.framework */,
+				276F074CF25DC87593F4ED03 /* Pods_RxPetrolPumpTests.framework */,
+				2BB56EB8175FD0B2F6BE8B86 /* Pods_RxPetrolPumpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		862C2835121816157AD5D618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F427CCCA80319B69119D6EE /* Pods-RxPetrolPump.debug.xcconfig */,
+				875F858047977461A0C084B4 /* Pods-RxPetrolPump.release.xcconfig */,
+				E08F00C54D796896645EB1FA /* Pods-RxPetrolPumpTests.debug.xcconfig */,
+				5F2E4B38CAE5F67F272B9DA6 /* Pods-RxPetrolPumpTests.release.xcconfig */,
+				54AD7F38933559C0607EC4A1 /* Pods-RxPetrolPumpUITests.debug.xcconfig */,
+				8541518D75DB5FE9EF251BA1 /* Pods-RxPetrolPumpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1191A93A200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPump" */;
 			buildPhases = (
+				355FB5850E9F4383617A7D9F /* [CP] Check Pods Manifest.lock */,
 				1191A90E200FA7A90034D740 /* Sources */,
 				1191A90F200FA7A90034D740 /* Frameworks */,
 				1191A910200FA7A90034D740 /* Resources */,
+				BB109477B9AA01C3FB017A21 /* [CP] Embed Pods Frameworks */,
+				28C2F06BDEBE9254ADBB564D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1191A93D200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpTests" */;
 			buildPhases = (
+				061802AB3BC4CB0CDDBE34FB /* [CP] Check Pods Manifest.lock */,
 				1191A922200FA7A90034D740 /* Sources */,
 				1191A923200FA7A90034D740 /* Frameworks */,
 				1191A924200FA7A90034D740 /* Resources */,
+				E442A4F7BF3D053021F025E5 /* [CP] Embed Pods Frameworks */,
+				5F91DC881AC4CD7256E8CF37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1191A940200FA7A90034D740 /* Build configuration list for PBXNativeTarget "RxPetrolPumpUITests" */;
 			buildPhases = (
+				198BABDA7A315E778FE308C4 /* [CP] Check Pods Manifest.lock */,
 				1191A92D200FA7A90034D740 /* Sources */,
 				1191A92E200FA7A90034D740 /* Frameworks */,
 				1191A92F200FA7A90034D740 /* Resources */,
+				DF3E93B3F8C5757318B9A85E /* [CP] Embed Pods Frameworks */,
+				D3865C97D3F081F6AF7932DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +338,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		061802AB3BC4CB0CDDBE34FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPetrolPumpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		198BABDA7A315E778FE308C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPetrolPumpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28C2F06BDEBE9254ADBB564D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPump/Pods-RxPetrolPump-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355FB5850E9F4383617A7D9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPetrolPump-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F91DC881AC4CD7256E8CF37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPumpTests/Pods-RxPetrolPumpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB109477B9AA01C3FB017A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPump/Pods-RxPetrolPump-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPump/Pods-RxPetrolPump-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3865C97D3F081F6AF7932DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPumpUITests/Pods-RxPetrolPumpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3E93B3F8C5757318B9A85E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPumpUITests/Pods-RxPetrolPumpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E442A4F7BF3D053021F025E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPetrolPumpTests/Pods-RxPetrolPumpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1191A90E200FA7A90034D740 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CCD2D320123219003E411F /* Outputs.swift in Sources */,
+				11CCD2CF201231FB003E411F /* Pump.swift in Sources */,
+				11A44F392010EAC000D7F734 /* UpDown.swift in Sources */,
+				11CCD2D120123211003E411F /* Inputs.swift in Sources */,
 				1191A918200FA7A90034D740 /* ViewController.swift in Sources */,
+				11A44F372010E93A00D7F734 /* LiftCycle.swift in Sources */,
+				11A44F362010E93A00D7F734 /* Fuel.swift in Sources */,
 				1191A916200FA7A90034D740 /* AppDelegate.swift in Sources */,
+				11A1C20F20139CD300F22EB3 /* LifeCyclePump.swift in Sources */,
+				11A44F3B2010F1BA00D7F734 /* Rx+.swift in Sources */,
+				11CCD2D5201234A6003E411F /* Delivery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +669,7 @@
 		};
 		1191A93B200FA7A90034D740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F427CCCA80319B69119D6EE /* Pods-RxPetrolPump.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +685,7 @@
 		};
 		1191A93C200FA7A90034D740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875F858047977461A0C084B4 /* Pods-RxPetrolPump.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +701,7 @@
 		};
 		1191A93E200FA7A90034D740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08F00C54D796896645EB1FA /* Pods-RxPetrolPumpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +719,7 @@
 		};
 		1191A93F200FA7A90034D740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2E4B38CAE5F67F272B9DA6 /* Pods-RxPetrolPumpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +737,7 @@
 		};
 		1191A941200FA7A90034D740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AD7F38933559C0607EC4A1 /* Pods-RxPetrolPumpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +754,7 @@
 		};
 		1191A942200FA7A90034D740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8541518D75DB5FE9EF251BA1 /* Pods-RxPetrolPumpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
