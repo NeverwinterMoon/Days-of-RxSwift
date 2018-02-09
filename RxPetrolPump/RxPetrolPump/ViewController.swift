@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var btn3: UIButton!
     @IBOutlet weak var label: UILabel!
     
+    let v = BehaviorRelay<String?>(value: nil)
+    
     let disposeBag = DisposeBag()
     var outPuts: Outputs!
     var inPuts: Inputs!
@@ -23,7 +25,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+//        v.subscribe { (e) in
+//            print("---> \(e)")
+//        }
+//        .disposed(by: disposeBag)
+//        
+//        v.accept("adfssd")
         
         
         
@@ -36,10 +43,10 @@ class ViewController: UIViewController {
 //        btn1.isSelected = true
         
 
-        outPuts.saleQuantityLCD.debug("my request1").bind(to: label.rx.text).disposed(by: disposeBag)
-        outPuts.delivery.map { $0 == .FAST1 }.bind(to: btn1.rx.isSelected).disposed(by: disposeBag)
-        outPuts.delivery.map { $0 == .FAST2 }.bind(to: btn2.rx.isSelected).disposed(by: disposeBag)
-        outPuts.delivery.map { $0 == .FAST3 }.bind(to: btn3.rx.isSelected).disposed(by: disposeBag)
+//        outPuts.saleQuantityLCD.debug("my request1").bind(to: label.rx.text).disposed(by: disposeBag)
+//        outPuts.delivery.map { $0 == .FAST1 }.bind(to: btn1.rx.isSelected).disposed(by: disposeBag)
+//        outPuts.delivery.map { $0 == .FAST2 }.bind(to: btn2.rx.isSelected).disposed(by: disposeBag)
+//        outPuts.delivery.map { $0 == .FAST3 }.bind(to: btn3.rx.isSelected).disposed(by: disposeBag)
         
         
     }
@@ -50,21 +57,26 @@ class ViewController: UIViewController {
     }
     
     func click(btn: UIButton) -> Observable<UpDown> {
-        let x = btn.rx.tap.asObservable()
-            .map { [weak btn] e -> Bool? in
-                guard let btn = btn else { return nil }
-                let status = !btn.isSelected
-                return status
-            }
-            .unwarp()
-            .map {
-                return $0 ? UpDown.up : UpDown.down
-            }
-            .startWith(UpDown.down)
-//            .share(replay: 0)
+        btn.rx.tap.asObservable()
         
-//        x.map { $0 != .down}.bind(to: btn.rx.isSelected).disposed(by: disposeBag)
-        return x
+        
+        
+        
+//        let x = btn.rx.tap.asObservable()
+//            .map { [weak btn] e -> Bool? in
+//                guard let btn = btn else { return nil }
+//                let status = !btn.isSelected
+//                return status
+//            }
+//            .unwarp()
+//            .map {
+//                return $0 ? UpDown.up : UpDown.down
+//            }
+//            .startWith(UpDown.down)
+////            .share(replay: 0)
+//
+////        x.map { $0 != .down}.bind(to: btn.rx.isSelected).disposed(by: disposeBag)
+//        return x
     }
 
 

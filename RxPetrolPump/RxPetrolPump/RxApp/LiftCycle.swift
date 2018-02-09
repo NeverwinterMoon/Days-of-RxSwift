@@ -58,10 +58,10 @@ class LifeCycle {
         LifeCycle.whenSetDown(sNozzle3, nozzleFuel: .three, fillActive: fillActive)
         )
         
-       let x2 = sStart.map { e -> Fuel? in e }
+        let x2 = sStart.map { e -> Fuel? in e }
         let x1 = sEnd.map { e -> Fuel? in nil }
         
-        Observable.merge(x1, x2).subscribe(onNext: { [weak self] f in
+        Observable.merge(x1, x2).startWith(nil).subscribe(onNext: { [weak self] f in
             self?.fillActive.accept(f)
         })
         .disposed(by: bag)
