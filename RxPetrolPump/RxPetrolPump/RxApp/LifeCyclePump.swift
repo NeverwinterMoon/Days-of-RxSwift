@@ -35,11 +35,14 @@ class LifeCyclePump: Pump {
         let s1 = inputs.sNozzle1
             .map { $0 == .up }
             .share(replay: 1)
-        let s2 = inputs.sNozzle2.map { $0 == .up }.share(replay: 1)
         
-        let s3 = inputs.sNozzle3.map { $0 == .up }.share(replay: 1)
+        let s2 = inputs.sNozzle2
+            .map { $0 == .up }
+            .share(replay: 1)
         
-        
+        let s3 = inputs.sNozzle3
+            .map { $0 == .up }
+            .share(replay: 1)
         
         return Outputs(delivery: delivery, saleQuantityLCD: saleQuantityLDC, s1State: s1, s2State: s2, s3State: s3)
     }
