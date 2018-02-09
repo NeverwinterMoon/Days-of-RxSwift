@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         inPuts = Inputs(sNozzle1: s1, sNozzle2: s2, sNozzle3: s3)
         p1 = LifeCyclePump()
         outPuts = p1.create(inPuts)
+        outPuts.s1State.bind(to: btn1.rx.isSelected).disposed(by: disposeBag)
+        outPuts.s2State.bind(to: btn2.rx.isSelected).disposed(by: disposeBag)
+        outPuts.s3State.bind(to: btn3.rx.isSelected).disposed(by: disposeBag)
+        outPuts.saleQuantityLCD.bind(to: label.rx.text).disposed(by: disposeBag)
 //        btn1.isSelected = true
         
 
@@ -57,8 +61,13 @@ class ViewController: UIViewController {
     }
     
     func click(btn: UIButton) -> Observable<UpDown> {
-        btn.rx.tap.asObservable()
-        
+        return btn.rx.tap.asObservable().scan(UpDown.down, accumulator: { acc, element in
+            if UpDown.up == acc {
+                return UpDown.down
+            } else {
+                return UpDown.up
+            }
+        })
         
         
         

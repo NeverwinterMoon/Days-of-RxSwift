@@ -15,4 +15,10 @@ struct Outputs {
     let delivery: Observable<Delivery>
 //    let presetLCD: BehaviorRelay<String>?
     let saleQuantityLCD: Observable<String>
+    
+    let s1State: Observable<Bool>
+    
+    let s2State: Observable<Bool>
+    
+    let s3State: Observable<Bool>
 }

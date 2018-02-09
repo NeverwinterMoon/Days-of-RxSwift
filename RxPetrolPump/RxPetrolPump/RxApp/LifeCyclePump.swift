@@ -22,7 +22,6 @@ class LifeCyclePump: Pump {
                 $0 == Optional(Fuel.three) ? Delivery.FAST3 :
                 Delivery.OFF
             }
-            
             .share(replay: 1)
         
         let saleQuantityLDC = lc.fillActive.map {
@@ -33,7 +32,20 @@ class LifeCyclePump: Pump {
         }
         .share(replay: 1)
         
-        return Outputs(delivery: delivery, saleQuantityLCD: saleQuantityLDC)
+        let s1 = inputs.sNozzle1
+            .map { $0 == .up }
+            .share(replay: 1)
+        let s2 = inputs.sNozzle2.map { $0 == .up }.share(replay: 1)
+        
+        let s3 = inputs.sNozzle3.map { $0 == .up }.share(replay: 1)
+        
+        
+        
+        return Outputs(delivery: delivery, saleQuantityLCD: saleQuantityLDC, s1State: s1, s2State: s2, s3State: s3)
+    }
+    
+    static func reverse(_ p: UpDown) -> UpDown {
+        return .up == p ? .down : .up
     }
 }
 
